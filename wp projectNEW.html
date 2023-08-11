@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>HTML Project</title>
+    <style>
+        * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat";
+}
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+button[type="submit"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: rgb(27, 166, 247);
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+  background-color: rgb(214, 226, 236);
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+    </style>
+</head>
+<body>
+
+    <!--Start Header-->
+    <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="CE0797">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <tr>
+                        <td>
+                            <font face="arial" color="#000000" size="5">
+                        
+
+                                <i class='fa fa-user-circle aqua-color' aria-hidden="true"></i>
+                                SUMIT KUMAR NAYAK 
+                            </font>
+                        </td>
+                        <td >
+                            &nbsp;
+                        </td>
+                        <td>
+                            
+                            <a href="#home"><font face="arial" color=" white " size="4">Home</font></a>
+                        </td>
+                        <td>
+                            <a href="#about"><font face="arial" color=" white" size="4">About</font></a>
+                        </td>
+                        <td>
+                            <a href="#events"><font face="arial" color="white" size="4">Events</font></a>
+                        </td>
+                        <td>
+                            <a href="#achievements"><font face="arial" color="white" size="4">Achievements</font></a>
+                        </td>
+                        <td>
+                            <a href="#contact"><font face="arial" color=" white " size="4">Contact</font></a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End Header-->
+    <!--Start Home-->
+    <body background="C:\Users\ACER\Downloads\thumb2-music-texture-grunge-music-background-music-concepts-background-with-notes-musical-notes.jpg">
+    <table id="home" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#292929">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <tr>
+                        <td align="center" valign="middle">
+                            <h3>
+                                <font face="arial" color="blue" size="8">
+                                     *well come to*
+                                </font>
+                            </h3>
+                        
+                        <h2>
+                            <font face="arial" color="pink" size="7">
+                                S.s MUSIC CLUB
+                           </font>
+                        </h2>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End Home-->
+
+    <!--Start About-->
+    <table id="about" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#292929">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                                <font face="arial" color="#f3971b" size="6">
+                                     About
+                                </font>
+                                <hr width="70" color="#f3971b">
+                        
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <div align ="center">
+                        <video width="820" height="340" controls>
+                            <source src="C:\Users\ACER\Downloads\ss music club videos cemo.mp4" type="video/mp4" autoplay>
+                          </video>
+                        <td width="60%">
+                            <font face="arial" color="#ffffff" size="4">
+                                <h3>Music is the universal language of mankind</h3>
+                                
+                                It makes me think about how it relates to life and I love the beats.” “Music is a way to express yourself, keep you company while you're alone, and always give you something to do.” “Music is everything, without music there is no purpose to a lot of stuff.” “Music is a way to express yourself and your feelings.
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End About-->
+
+    <!--Start Events-->
+    <table id="Events" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="0" cellspacing="0" align="center">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="3">
+                                <font face="arial" color="#292929" size="6">
+                                     Events
+                                </font>
+                                <hr width="70" color="#292929">
+                        
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <td width="33%">
+                            <a href="https://youtu.be/1wX5yHh6DHc"><img src="https://www.auchitya.com/wp-content/uploads/2021/04/odissi-dance-1.jpg" alt="Service1"  width="90%"></a>
+                        </td>
+                        <td width="30%">
+                            <a href="https://www.youtube.com/watch?v=WuvObY4Dqg0"><img src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2017/03/23142053/230317_IndianClassical-AmjadAliKhan.jpg" alt="Service1"  width="90%"></a>
+                        </td>
+                        <td width="33%">
+                            <a href="https://www.youtube.com/watch?v=xuFXOIdrC9g"><img src="https://i8.amplience.net/i/naras/pressplayathome-e59-chrisgrey-thumbnail_hero_v1.jpg.jpg?w=821&sm=c" alt="Service1"  width="90%"></a>
+                        </td>
+                        <td width="100%">
+                        <a href="https://www.youtube.com/watch?v=mdiAfSihl78"><img src="https://c.superprof.com/i/a/21601462/10380610/600/20220810164107/how-play-and-set-tones-rhythm-pad-how-bring-drum-sound-more-realistic-rhythm-pad.jpg" alt="service3" width="500%" hight="50%"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End Services-->
+
+    <!--Start Testimonial-->
+                        
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="pink">
+                                <h3 align="center">Sumit Kumar Nayak  (chairperson)</h3>
+                            </font>
+                            <font face="arial" color="green"><b>
+                                “Music is life itself.”
+                            </font>
+                        </td>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="green">
+                                <h3 align="center">Sandeep Kumar Sahoo (Guitarists)</h3>
+                            </font>
+                            <font face="arial" color="green"><b>
+                                “Music is the soundtrack of your life.
+                            </font>
+                        </td>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="green">
+                                <h3 align="center">Abhiram Pandey (prof.of H.V.C)</h3>
+                            </font>
+                            <font face="arial" color="green">
+                                “Music is the wine that fills the cup of silence.”<b>
+                            </font>
+                            <font face="arial" color="#ffffff"> </font>
+                        </td>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="green">
+                                <h3 align="center">Swasti saurav Das ( Teacher of Odissi Dance)</h3>
+                            </font>
+                            <font face="arial" color="green">
+                                “Music is the universal language of mankind. ”<b>
+                            </font>
+                            <font face="arial" color="#ffffff"> </font>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End Testimonial-->
+
+    <!--Start Achievements-->
+    <table id="achievements" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                                <font face="arial" color="#292929" size="6">
+                                     Achievements
+                                </font>
+                                <hr width="70" color="#292929">
+                        
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <td width="66%" valign="top">
+                           <font face="arial"color="#292929">
+                            <ul>
+                                <li>First welcome to our music group and this group was opened in 2010, till date our group is running with success, our work in this music club is at least 10000 students learn music, our club is one of the top 10 in India, hey in our club Many students have become singers till now, our club has won the best music club award 3 times, if you are interested in making a future in music, then just visit our website and register. Thank you</li>
+                            </ul>
+                           </font>
+                        </td>
+                        <td valign="top">
+                            <img src="https://www.perfectlyengraved.co.uk/media/catalog/product/cache/9/small_image/295x295/9df78eab33525d08d6e5fb8d27136e95/G/L/GLEN_A953.jpg" alt="Achievements"  width="60%">
+                    </tr>
+                    <td valign="middle">
+                            <img src="https://cdn.trophystore.co.uk/Img/Dynamic/Product/69054-637528105976008213.webp?w=360&h=360" alt="Achievement" width="200">
+                                                                           
+                        </td>
+                        <td valign="button">
+                            <img src="https://www.perfectlyengraved.co.uk/media/catalog/product/cache/9/small_image/295x295/9df78eab33525d08d6e5fb8d27136e95/G/L/GLEN_A1241.jpg" alt="Achievement" width="200">
+                        </td>
+                           <td valign="button">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2TbE6rZvn1hbl0vbMTqgnDUsIIkybPPGRjBoCRMAO-eycdWmynNqroKaLFFFmUzKZehPrdCU7ids&usqp=CAU&ec=48665698" alt="Achievement" width="200">
+                            </td>
+                            <td valign="middle">
+                    <img src="https://img.freepik.com/premium-vector/certificate-musical-achievement-music-award-certificate-adults-kids-musical-competition_653550-30.jpg?w=2000" alt="Achievement" width="400">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End Achievements-->
+
+    <!--Start Contact-->
+    <table id="contact" border="0" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="1">
+                                <font face="arial" color="pink" size="6">
+                                    <ins><b>Contact us</ins></b>
+                                </font>
+                                <hr width="0" color="">
+                        
+                        </td>
+                    </tr>
+               </table>
+                    <!--Heading End-->
+                <table>    
+                    <tr>
+                        <section>
+                            <div class="container">
+                              <form action="https://formspree.io/f/xeqnrkyw" method="POST" id="my-form">
+                          
+                                <div class="form-group">
+                                  <label for="firstName"> First Name</label>
+                                  <input type="text" id="firstName" name="firstName">
+                                </div>
+                          
+                                <div class="form-group">
+                                  <label for="latsName">Last Name</label>
+                                  <input type="text" id="lastName" name="lastName">
+                                </div>
+                          
+                                <div class="form-group">
+                                  <label for="email">Email</label>
+                                  <input type="email" id="email" name="email">
+                                </div>
+                          
+                                <div class="form-group">
+                                  <label for="massage">Massage</label>
+                                  <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                                </div>
+                          
+                                <button type="submit">Submit</button>
+                              </form>
+                            </div>
+                            <div id="status"></div>
+                          </section>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End Contact-->
+
+    <!--Start Footer-->
+    <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="#353535">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                   
+                    <tr>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-facebook-square" aria-hidden="true"></span>
+                                Facebook
+                            </font>
+                            
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-twitter-square" aria-hidden="true"></span>
+                                Twitter
+                            </font>
+                            
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-instagram" aria-hidden="true"></span>
+                                Instagram
+                            </font>
+                            
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-linkedin-square" aria-hidden="true"></span>
+                                Linkedin
+                            </font>
+                            
+                        </td>
+                        <td rowspan="2">
+                            <font face="arial" color="#ffffff" size="5">
+                                <span class="fa fa-arrow-circle-up" aria-hidden="true"></span>
+                             <a href="#header">
+                                <font face="arial" color="#ffffff" size="5">
+                                    Top
+                                </font>
+                                
+                            </a>
+                            </font>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-youtube-square" aria-hidden="true"></span>
+                                YouTube
+                            </font>
+                            
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-rss-square" aria-hidden="true"></span>
+                                Blog
+                            </font>
+                            
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                Email
+                            </font>
+                            
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-globe" aria-hidden="true"></span>
+                                Website
+                            </font>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End Footer-->
+</body>
+</html>
